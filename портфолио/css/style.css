@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("../img/Портфолио.png");
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.headers {
+    margin: 0px 100px 30px;
+}
+
+.hello {
+    margin: 20px 0;
+    background-color: #f5f5f5;
+    border: 3px solid #9AA677;
+    width: 200px;
+    height: 40px;
+}
+
+.hello a:hover {
+    color: #9878A7;
+}
+
+.me {
+    width: 245px;
+    height: 300px;
+    margin: -220px 1100px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #9878A7;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #9AA677;
+    margin: 20px 0;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.skill-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #9AA677, #9878A7);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+
+.work-examples {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.p {
+    text-align: center;
+    margin: 10px;
+}
+
+.work {
+    margin: 100px;
+    padding: 10px;
+}
+
+.text {
+    line-height: 30px;
+}
+
+.work-examples img {
+    width: 500px;
+    height: auto;
+}
+
+.know {
+    margin: 100px;
+    padding: 10px;
+}
+
+.works {
+    margin: 100px;
+    padding: 10px;
+}
+
+h2 {
+    color: #9AA677;
+}
+
+mark {
+    background-color: #d3cbd7;
+}
+
+.marks {
+    display: flex;
+    flex-direction: column;
+}
+
+.mark-1 {
+    width: 300px;
+    height: auto;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.mark-2 {
+    width: 300px;
+    height: auto;
+    text-align: right;
+    margin: -300px 1000px 20px;
+}
